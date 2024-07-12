@@ -1,0 +1,11 @@
+﻿Aqui irão ficar os testes de integração.
+Esses testes são feitos para validar a integração de múltiplas coisas.
+
+Por exemplo: Para validar se a Repository está integrada corretamente com o banco de dados.
+
+Para isso normalmente usamos um banco de dados de teste, ou então fazemos o teste no mesmo 
+banco de dados da aplicação, porém com instruções para adicionar registros ao iniciar o teste
+e depois remover esses registros ao final do teste.
+
+Os testes de integração são necessários pois o teste unitário só garante as lógicas das Entities
+e Services, mas não garante que o dado bruto que vem da Repository chegará até a camada Service.
