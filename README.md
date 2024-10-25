@@ -56,7 +56,7 @@ Camada responsável pela configuração do gRPC nativo e web, incluindo controll
 Para o método REST, o retorno esperado é:
 ```
 {
-    "message": "Hello! | This message was proccessed by the service layer!"
+    "message": "Hello! | This message was processed by the service layer!"
 }
 ```
 
@@ -64,7 +64,7 @@ E para os métodos em gRPC, o retorno esperado é:
 Para o método REST, o retorno esperado é:
 ```
 {
-    "message": "Hello! | This message was proccessed by the gRPC service layer!"
+    "message": "Hello! | This message was processed by the gRPC service layer!"
 }
 ```
 
